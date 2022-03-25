@@ -43,6 +43,9 @@ iManager will than connect using ssh and can now execute code and commands as ro
    
 ## Installing 
    
+   ////Requirment////
+   Make sure you installed Homebrew. You can get it from here: https://brew.sh
+   
    //////DOWNLOADINF/////
    Download the latest release from here: 
    Double click the .DMG and drag the iphoneManage.app in the Applications folder.
