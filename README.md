@@ -81,6 +81,11 @@ iManager will than connect using ssh and can now execute code and commands as ro
    text field. You only need to enter your root Password when you use the standart root which is alpine
    
    
+   /////NETWORK ///////
+   Even when iManager is connecting localy by the cable its still ssh. I think the network doesn´t really matter as it the idevice is connected
+   with the cable and as localhost but when you have connecting issues you should still ensure your idevice and computer are in the same Network :)
+   
+   
    ///// INSTALLING DEPENDENCIES /////
    
    After you moved iphoneManage.app to your /Applications folder and allowed it to be opened, click install dependencies in iManager.
