@@ -7,16 +7,27 @@ iManager will than connect using ssh and can now execute code and commands as ro
 ## Features
 
  -SBReload device
+ 
  -Install Tweaks
+ 
  -Shutdown device
+ 
  -Install Application
+ 
  -Install Shell scripts as Command to the System
+ 
  -UICache || THIS WILL REMOVE THE CHECKRA1N LOADER UNTIL THE NEXT REJAILBREAK (checkra1n loader app will not disappear from Homescreen on odysseyra1n)
+ 
  -Respring Device || SBReload and Respring is almost the same, you should use sbreload instead
+ 
  -List installed Packages (Installed Tweaks)
+ 
  -Run commands that you want from a text filed and see the output
+ 
  -Program will show an iPhone with your iDevice Wallpaper
+ 
  -iManager shows some basic information about the connected iDevice
+ 
  -You can send files/folders to your iDevice || They can be found at /var/mobile/iManagerkira/macFiles/
  
   For now this is not that much, but im planning to add more soon. You can anyways feel free to add features yourself as iManager is fully open sourced.
@@ -44,13 +55,18 @@ iManager will than connect using ssh and can now execute code and commands as ro
 ## Installing 
    
    ////Requirment////
+   
    Make sure you installed Homebrew. You can get it from here: https://brew.sh
    
-   //////DOWNLOADINF/////
+   
+   //////DOWNLOADING/////
+   
    Download the latest release from here: 
    Double click the .DMG and drag the iphoneManage.app in the Applications folder.
    
+   
    /////App Cannot be opened because .. //////
+   
    Open iphoneManage.app using Finder, not using Launchpad
    It will say that Apple cannot check it for Malware. Just click open anyways button and iManager should start. 
    In case it say it cannnot check for malware but you don´t see an open button, open settings, navigate to Security and now there should be a message
@@ -58,11 +74,15 @@ iManager will than connect using ssh and can now execute code and commands as ro
    
    VIDEO TUTORIAL FOR THIS: https://www.youtube.com/watch?v=_gQA3RhcJuU
    
+   
    //////// Type in your root passsword //////
+   
    iManager can only connected when it knows the root password of your idevice!! Don´t forogt to type your iDevice root password in the left bottom corner
    text field. You only need to enter your root Password when you use the standart root which is alpine
    
+   
    ///// INSTALLING DEPENDENCIES /////
+   
    After you moved iphoneManage.app to your /Applications folder and allowed it to be opened, click install dependencies in iManager.
    After its done, quit it from the taskbar, relaunch iManager and click install dependencies again. Now you should see some Alerts poping up on your connected idevice
    
