@@ -2,6 +2,7 @@
 UI Program that can help to manage your jailbroken iDevices.
 
 All you need to do is install openssh on your device and connect it to the computer and launch iManager
+
 iManager will than connect using ssh and can now execute code and commands as root.
 
 ## Features
@@ -28,7 +29,7 @@ iManager will than connect using ssh and can now execute code and commands as ro
  
  -iManager shows some basic information about the connected iDevice
  
- -You can send files/folders to your iDevice || They can be found at /var/mobile/iManagerkira/macFiles/
+ -You can send files/folders to your iDevice || They can be found at /var/mobile/iManagerkira/macFiles/ or /var/mobile/iManagerkira/windowsFiles/
  
   For now this is not that much, but im planning to add more soon. You can anyways feel free to add features yourself as iManager is fully open sourced.
   Since it has root access, it can in theory even set nonce, restore rootFS or something.
@@ -45,14 +46,35 @@ iManager will than connect using ssh and can now execute code and commands as ro
      (Its usually installed in /etc/ssh/ but thats not possible to access on rootless jailbreak).
      As long as Appsync Unified will not be updated for iOS 15 but OpenSSH is, you could use any feature execept installing Applications
      
-     Only MacOS can run this version of iManager for now. I will slowly code a bit on a windows version but it won´t be released soon.
-     But since its not any special exploit like checkm8 there is no hardware problem that prevent us from making a windows version
+     iManager works on Windows and MacOS
+     
+     iManager is Open Sourced for Windows and MacOS
      
 ## Compiling
    
    Select your Apple ID to sign the App in Xcode and than just build it. It should Build/Compile without issues
    
-## Installing 
+   Open iManager.sln and click the build button in Visual Studio
+   
+## Instaling Windows
+  
+  Download the latest iManager version for Windows from releases
+  
+  Unzip the zip file and double click iManager.exe
+  
+  In case iManager will not start, install iTunes (install iTunes from internet, not microsoft Store) Only do that when iManager.exe won´t start otherwise you don´t need to install iTunes
+  
+  Now iManager.exe should open up
+  
+  Plug your Jailbroken iDevice to your computer or laptop via Cable and make sure OpenSSH and tweak injection System (Libhooker, Cydia Substrate or Substitute) is installed
+  
+  Click install dependencies Button and wait for iManager to tell you it installed all dependencies.
+  You need to click install dependencies each time you connect a new Jailbroken iDevice that wasn´t
+  Click install dependencies Button and wait for iManager to tell you it installed all dependencies. connected with iManager before or only with older versions.
+  
+  
+  
+## Installing MacOS
    
    ////Requirment////
    
