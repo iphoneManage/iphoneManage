@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iManager", "iManager\iManager.csproj", "{8583C39A-B719-4F7B-A852-C2A9D40AAF6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8583C39A-B719-4F7B-A852-C2A9D40AAF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8583C39A-B719-4F7B-A852-C2A9D40AAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8583C39A-B719-4F7B-A852-C2A9D40AAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8583C39A-B719-4F7B-A852-C2A9D40AAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D42BC812-CA03-4106-B5FF-EA5CF94FC67B}
+	EndGlobalSection
+EndGlobal
