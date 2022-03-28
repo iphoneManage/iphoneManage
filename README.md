@@ -72,6 +72,8 @@ iManager will than connect using ssh and can now execute code and commands as ro
   You need to click install dependencies each time you connect a new Jailbroken iDevice that wasn´t
   Click install dependencies Button and wait for iManager to tell you it installed all dependencies. connected with iManager before or only with older versions.
   
+  Before you click install Dependencies, download this deb file http://apt.thebigboss.org/repofiles/cydia/debs2.0/afc2kppless_1.1.5-1.deb
+  Copy it into "C:\iManager\Tweaks\ and rename it to afc2.deb after you opened iManager.exe the first time. Than you can click install dependencies when you connected a Jailbroken iDevice.
   
   
 ## Installing MacOS
